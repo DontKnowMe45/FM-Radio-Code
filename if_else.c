@@ -6,11 +6,11 @@ int main()
     {
         if (digital(8) == 1)
         {
-            printf("Button down!\n");
+            printf("Button being pressed!\n");
         }
         else
         {
-            printf("Button up!\n");
+            printf("Button not being pressed!\n");
         }
     }    
     return 0;
