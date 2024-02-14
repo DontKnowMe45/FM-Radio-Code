@@ -47,6 +47,7 @@ void go_forward();
 
 int main()
 {
+    shut_down_in(120);
     printf("Hello World\n");
     // Your first words. You knew them before I taught you anything about our language. A tradition passed.
     turn_crane();
